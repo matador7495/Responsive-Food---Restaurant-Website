@@ -143,3 +143,46 @@ section {
   width: 100%;
   height: auto;
 }
+
+.about {
+  background: url(/img/feature.svg);
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  align-items: center;
+  grid-gap: 3rem;
+}
+
+.about-img img {
+  width: 100%;
+  height: auto;
+  padding-top: 80px;
+}
+
+.about-text h2 {
+  margin: 15px 0 15px;
+  font-size: var(--h2-font);
+  line-height: 1.1;
+}
+
+.about-text h3 {
+  color: var(--secound-color);
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.about-text p {
+  font-size: var(--p-font);
+  color: var(--other-color);
+  line-height: 27px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header.sticky {
+  background-color: #fff;
+  padding: 12px 18%;
+  box-shadow: 0px 0px 1px #13084982;
+}
