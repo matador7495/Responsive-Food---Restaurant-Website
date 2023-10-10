@@ -186,3 +186,79 @@ header.sticky {
   padding: 12px 18%;
   box-shadow: 0px 0px 1px #13084982;
 }
+
+.center-text {
+  text-align: center;
+}
+
+.center-text h2 {
+  margin: 15px 0px 0px;
+  font-size: var(--h2-font);
+  line-height: 1.1;
+}
+
+.center-text h3 {
+  color: var(--secound-color);
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.menu-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  grid-gap: 2rem;
+  align-items: center;
+  margin-top: 4.5rem;
+  cursor: pointer;
+}
+
+.box {
+  padding: 15px 50px 15px 50px;
+  background-color: var(--bg-color);
+  box-shadow: 0px 5px 40px rgb(19 8 73 / 13%);
+  border-radius: 20px;
+  transition: all 0.40s ease;
+}
+
+.box-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.box-img img {
+  width: 100%;
+  height: auto;
+}
+
+.box-text h4 {
+  color: var(--text-color);
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.box-text p {
+  color: var(--other-color);
+  font-size: var(--p-font);
+  font-weight: 400;
+  margin-bottom: 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.box-text h6 {
+  color: var(--secound-color);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.box:hover {
+  transform: scale(1.04) translateY(-5px);
+}
+
+.box-btn {
+  text-align: center;
+  margin-top: 5rem;
+}
