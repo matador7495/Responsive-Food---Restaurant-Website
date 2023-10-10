@@ -599,7 +599,7 @@ header.sticky {
     flex-direction: column;
     background-color: #fff;
     align-items: flex-start;
-    box-shadow: 0 0 1px #13084982;
+    box-shadow: 0px 0px 1px #13084982;
     transition: all 0.40s ease;
   }
 
@@ -636,6 +636,14 @@ header.sticky {
   :root {
     --big-font: 3.2rem;
     --h2-font: 2.2rem;
+  }
+
+  .letter {
+    margin: 0 auto;
+  }
+
+  .contact {
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
   }
 }
 
