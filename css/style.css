@@ -393,3 +393,86 @@ header.sticky {
   right: 1px;
   cursor: pointer;
 }
+
+.blog {
+  background: url(/img/blog.svg);
+  background-size: cover;
+  background-position: center left;
+}
+
+.blog-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  grid-gap: 2rem;
+  align-items: center;
+  margin-top: 6rem;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.main {
+  padding: 0px 0px 10px 0px;
+  border-radius: 20px;
+  box-shadow: 0px 5px 40px rgb(19 8 73 / 13%);
+  transition: all 0.40s ease;
+}
+
+.blog-content img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.blog-text {
+  padding: 20px 15px;
+}
+
+.blog-text h6 {
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--other-color);
+  margin-bottom: 15px;
+}
+
+.blog-text h4 {
+  font-size: 19px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: var(--text-color);
+  margin-bottom: 10px;
+  transition: all 0.30s ease;
+}
+
+.blog-text p {
+  font-size: var(--p-font);
+  color: var(--other-color);
+  font-weight: 400;
+  line-height: 30px;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 20px;
+}
+
+.blog-btn {
+  display: flex;
+  align-items: center;
+}
+
+.blog-btn a {
+  font-size: var(--p-font);
+  color: var(--main-color);
+  margin-right: 10px;
+}
+
+.blog-btn i {
+  font-size: 19px;
+  color: var(--main-color);
+}
+
+.blog-text h4:hover {
+  color: var(--main-color);
+}
+
+.main:hover {
+  transform: scale(1.04) translateY(-5px);
+}
