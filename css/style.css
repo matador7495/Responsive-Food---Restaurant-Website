@@ -330,3 +330,66 @@ header.sticky {
 .row:hover {
   transform: scale(1.04) translateY(-5px);
 }
+
+.container {
+  padding: 70px 80px;
+  box-shadow: 0px 5px 40px rgb(19 8 73 / 13%);
+  border-radius: 20px;
+}
+
+.newsletter-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.news-text h2 {
+  margin: 15px 0px 15px;
+  font-size: var(--h2-font);
+  line-height: 1.1;
+}
+
+.news-text h3 {
+  color: var(--second-color);
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.news-text p {
+  font-size: var(--p-font);
+  color: var(--other-color);
+  font-weight: 400;
+  line-height: 30px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.letter form {
+  position: relative;
+  width: 350px;
+  max-width: 100%;
+}
+
+.letter form input:first-child {
+  display: inline-block;
+  width: 100%;
+  padding: 16px 130px 16px 15px;
+  border: 2px solid var(--main-color);
+  outline: none;
+  border-radius: 30px;
+}
+
+.letter form input:last-child {
+  position: absolute;
+  display: inline-block;
+  outline: none;
+  border: none;
+  padding: 17px 30px;
+  border-radius: 30px;
+  background-color: var(--main-color);
+  color: #fff;
+  top: 1px;
+  right: 1px;
+  cursor: pointer;
+}
