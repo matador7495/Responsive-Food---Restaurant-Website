@@ -18,3 +18,72 @@
   --h2-font: 3.2rem;
   --p-font: 1rem;
 }
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: transparent;
+  padding: 25px 18%;
+  z-index: 1000;
+  transition: all 0.35s ease;
+}
+
+.logo img {
+  max-width: 100%;
+  width: 150px;
+  height: auto;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar a {
+  font-size: var(--p-font);
+  color: var(--text-color);
+  padding: 10px 28px;
+  font-weight: 700;
+  transition: all 0.35s ease;
+}
+
+.navbar a:hover {
+  color: var(--main-color);
+}
+
+.navbar a.active {
+  color: var(--main-color);
+}
+
+.navbar a.cart {
+  font-size: 30px;
+}
+
+#menu-icon {
+  color: var(--text-color);
+  font-size: 40px;
+  z-index: 10001;
+  cursor: pointer;
+  display: none;
+}
+
+.top-btn a {
+  display: inline-block;
+  background-color: var(--text-color);
+  color: #fff;
+  padding: 17px 32px;
+  border-radius: 30px;
+  border: none;
+  font-size: 17px;
+  font-weight: 700;
+}
